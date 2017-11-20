@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldWarZ.CSharp", "WorldWarZ.CSharp.csproj", "{09CECF78-202D-757C-5186-FF5A68CE23AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldWarZ.CSharp.Editor", "WorldWarZ.CSharp.Editor.csproj", "{2B59ABF5-0EA1-C94C-C96F-83D86C54D00A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09CECF78-202D-757C-5186-FF5A68CE23AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09CECF78-202D-757C-5186-FF5A68CE23AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09CECF78-202D-757C-5186-FF5A68CE23AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09CECF78-202D-757C-5186-FF5A68CE23AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B59ABF5-0EA1-C94C-C96F-83D86C54D00A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B59ABF5-0EA1-C94C-C96F-83D86C54D00A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B59ABF5-0EA1-C94C-C96F-83D86C54D00A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B59ABF5-0EA1-C94C-C96F-83D86C54D00A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

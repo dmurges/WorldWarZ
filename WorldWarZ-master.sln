@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{8B4A4915-5EF7-90D0-6376-F119030EE0EC}") = "WorldWarZ-master", "Assembly-CSharp.csproj", "{6440B733-0489-8237-7AAE-84EEFBDC149B}"
+EndProject
+Project("{8B4A4915-5EF7-90D0-6376-F119030EE0EC}") = "WorldWarZ-master", "Assembly-CSharp-Editor.csproj", "{60870826-69CA-2F2D-6A8E-DD9042F2A430}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6440B733-0489-8237-7AAE-84EEFBDC149B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6440B733-0489-8237-7AAE-84EEFBDC149B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6440B733-0489-8237-7AAE-84EEFBDC149B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6440B733-0489-8237-7AAE-84EEFBDC149B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60870826-69CA-2F2D-6A8E-DD9042F2A430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60870826-69CA-2F2D-6A8E-DD9042F2A430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60870826-69CA-2F2D-6A8E-DD9042F2A430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60870826-69CA-2F2D-6A8E-DD9042F2A430}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

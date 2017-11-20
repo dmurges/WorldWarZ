@@ -1,0 +1,1177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>4000T-69307</Machine>
+    <WindowsUser>Comp30019</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>b386a23a-de24-0a45-844f-ada70ba6e901</PackageIdentityName>
+    <PackageIdentityPublisher>CN=DefaultCompany</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <RegisteredManifestChecksum>5B8C2CB07B0BA79EC99F7023F8B96C19AF323E58FF68C73A4A1E2EF32DC7D64E</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>BossWars_1.0.0.0_x86__pzq3xp76mxafg</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>BossWars_pzq3xp76mxafg!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>BossWars</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=DefaultCompany</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-10-20T14:24:55.529</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\bin\x86\Debug\BossWars.exe">
+      <PackagePath>entrypoint\BossWars.exe</PackagePath>
+      <Modified>2016-10-20T14:24:26.676</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
+      <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
+      <Modified>2016-10-16T07:41:50.195</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\Microsoft.ApplicationInsights.PersistenceChannel\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.PersistenceChannel.dll">
+      <PackagePath>Microsoft.ApplicationInsights.PersistenceChannel.dll</PackagePath>
+      <Modified>2016-10-16T07:41:50.171</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\Microsoft.ApplicationInsights.WindowsApps\1.0.0\lib\win81\Microsoft.ApplicationInsights.Extensibility.Windows.dll">
+      <PackagePath>Microsoft.ApplicationInsights.Extensibility.Windows.dll</PackagePath>
+      <Modified>2016-10-16T07:41:50.162</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
+      <PackagePath>Microsoft.CSharp.dll</PackagePath>
+      <Modified>2016-10-16T07:38:10.187</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.ComponentModel.DataAnnotations.dll">
+      <PackagePath>System.ComponentModel.DataAnnotations.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.606</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.Core.dll">
+      <PackagePath>System.Core.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.608</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.Net.dll">
+      <PackagePath>System.Net.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.612</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.Numerics.dll">
+      <PackagePath>System.Numerics.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.613</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.Runtime.Serialization.dll">
+      <PackagePath>System.Runtime.Serialization.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.615</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.ServiceModel.Web.dll">
+      <PackagePath>System.ServiceModel.Web.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.621</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.ServiceModel.dll">
+      <PackagePath>System.ServiceModel.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.616</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.Windows.dll">
+      <PackagePath>System.Windows.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.638</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.Xml.Linq.dll">
+      <PackagePath>System.Xml.Linq.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.653</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.Xml.Serialization.dll">
+      <PackagePath>System.Xml.Serialization.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.656</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.Xml.dll">
+      <PackagePath>System.Xml.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.650</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.dll">
+      <PackagePath>System.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.610</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\Microsoft.VisualBasic\10.0.0\lib\netcore50\Microsoft.VisualBasic.dll">
+      <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
+      <Modified>2016-10-16T07:38:09.995</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\Microsoft.Win32.Primitives\4.0.0\lib\dotnet\Microsoft.Win32.Primitives.dll">
+      <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.425</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.AppContext\4.0.0\lib\netcore50\System.AppContext.dll">
+      <PackagePath>System.AppContext.dll</PackagePath>
+      <Modified>2016-10-16T07:38:08.738</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Collections\4.0.10\lib\netcore50\System.Collections.dll">
+      <PackagePath>System.Collections.dll</PackagePath>
+      <Modified>2016-10-16T07:38:08.298</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Collections.Concurrent\4.0.10\lib\dotnet\System.Collections.Concurrent.dll">
+      <PackagePath>System.Collections.Concurrent.dll</PackagePath>
+      <Modified>2016-10-16T07:38:09.640</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Collections.Immutable\1.1.37\lib\dotnet\System.Collections.Immutable.dll">
+      <PackagePath>System.Collections.Immutable.dll</PackagePath>
+      <Modified>2016-10-16T07:38:10.174</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Collections.NonGeneric\4.0.0\lib\dotnet\System.Collections.NonGeneric.dll">
+      <PackagePath>System.Collections.NonGeneric.dll</PackagePath>
+      <Modified>2016-10-16T07:38:08.647</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Collections.Specialized\4.0.0\lib\dotnet\System.Collections.Specialized.dll">
+      <PackagePath>System.Collections.Specialized.dll</PackagePath>
+      <Modified>2016-10-16T07:38:08.608</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.ComponentModel\4.0.0\lib\netcore50\System.ComponentModel.dll">
+      <PackagePath>System.ComponentModel.dll</PackagePath>
+      <Modified>2016-10-16T07:38:09.063</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.ComponentModel.Annotations\4.0.10\lib\dotnet\System.ComponentModel.Annotations.dll">
+      <PackagePath>System.ComponentModel.Annotations.dll</PackagePath>
+      <Modified>2016-10-16T07:38:09.523</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.ComponentModel.EventBasedAsync\4.0.10\lib\dotnet\System.ComponentModel.EventBasedAsync.dll">
+      <PackagePath>System.ComponentModel.EventBasedAsync.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.138</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Data.Common\4.0.0\lib\dotnet\System.Data.Common.dll">
+      <PackagePath>System.Data.Common.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.576</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Diagnostics.Contracts\4.0.0\lib\netcore50\System.Diagnostics.Contracts.dll">
+      <PackagePath>System.Diagnostics.Contracts.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.157</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Diagnostics.Debug\4.0.10\lib\netcore50\System.Diagnostics.Debug.dll">
+      <PackagePath>System.Diagnostics.Debug.dll</PackagePath>
+      <Modified>2016-10-16T07:38:08.393</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Diagnostics.StackTrace\4.0.0\lib\netcore50\System.Diagnostics.StackTrace.dll">
+      <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.308</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Diagnostics.Tools\4.0.0\lib\netcore50\System.Diagnostics.Tools.dll">
+      <PackagePath>System.Diagnostics.Tools.dll</PackagePath>
+      <Modified>2016-10-16T07:38:09.679</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Diagnostics.Tracing\4.0.20\lib\netcore50\System.Diagnostics.Tracing.dll">
+      <PackagePath>System.Diagnostics.Tracing.dll</PackagePath>
+      <Modified>2016-10-16T07:38:09.773</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Dynamic.Runtime\4.0.10\lib\netcore50\System.Dynamic.Runtime.dll">
+      <PackagePath>System.Dynamic.Runtime.dll</PackagePath>
+      <Modified>2016-10-16T07:38:09.205</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Globalization\4.0.10\lib\netcore50\System.Globalization.dll">
+      <PackagePath>System.Globalization.dll</PackagePath>
+      <Modified>2016-10-16T07:38:08.289</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Globalization.Calendars\4.0.0\lib\netcore50\System.Globalization.Calendars.dll">
+      <PackagePath>System.Globalization.Calendars.dll</PackagePath>
+      <Modified>2016-10-16T07:38:10.027</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Globalization.Extensions\4.0.0\lib\dotnet\System.Globalization.Extensions.dll">
+      <PackagePath>System.Globalization.Extensions.dll</PackagePath>
+      <Modified>2016-10-16T07:38:08.792</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.IO\4.0.10\lib\netcore50\System.IO.dll">
+      <PackagePath>System.IO.dll</PackagePath>
+      <Modified>2016-10-16T07:38:08.553</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.IO.Compression\4.0.0\lib\netcore50\System.IO.Compression.dll">
+      <PackagePath>System.IO.Compression.dll</PackagePath>
+      <Modified>2016-10-16T07:38:09.797</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.IO.Compression.clrcompression-x86\4.0.0\runtimes\win10-x86\native\ClrCompression.dll">
+      <PackagePath>ClrCompression.dll</PackagePath>
+      <Modified>2016-10-16T07:38:18.235</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.IO.Compression.ZipFile\4.0.0\lib\dotnet\System.IO.Compression.ZipFile.dll">
+      <PackagePath>System.IO.Compression.ZipFile.dll</PackagePath>
+      <Modified>2016-10-16T07:38:08.857</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.IO.FileSystem\4.0.0\lib\netcore50\System.IO.FileSystem.dll">
+      <PackagePath>System.IO.FileSystem.dll</PackagePath>
+      <Modified>2016-10-16T07:38:10.225</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.IO.FileSystem.Primitives\4.0.0\lib\dotnet\System.IO.FileSystem.Primitives.dll">
+      <PackagePath>System.IO.FileSystem.Primitives.dll</PackagePath>
+      <Modified>2016-10-16T07:38:09.736</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.IO.IsolatedStorage\4.0.0\lib\netcore50\System.IO.IsolatedStorage.dll">
+      <PackagePath>System.IO.IsolatedStorage.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.790</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.IO.UnmanagedMemoryStream\4.0.0\lib\dotnet\System.IO.UnmanagedMemoryStream.dll">
+      <PackagePath>System.IO.UnmanagedMemoryStream.dll</PackagePath>
+      <Modified>2016-10-16T07:38:09.184</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Linq\4.0.0\lib\netcore50\System.Linq.dll">
+      <PackagePath>System.Linq.dll</PackagePath>
+      <Modified>2016-10-16T07:38:08.227</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Linq.Expressions\4.0.10\lib\netcore50\System.Linq.Expressions.dll">
+      <PackagePath>System.Linq.Expressions.dll</PackagePath>
+      <Modified>2016-10-16T07:38:10.417</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Linq.Parallel\4.0.0\lib\netcore50\System.Linq.Parallel.dll">
+      <PackagePath>System.Linq.Parallel.dll</PackagePath>
+      <Modified>2016-10-16T07:38:09.269</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Linq.Queryable\4.0.0\lib\netcore50\System.Linq.Queryable.dll">
+      <PackagePath>System.Linq.Queryable.dll</PackagePath>
+      <Modified>2016-10-16T07:38:09.287</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Net.Http\4.0.0\lib\netcore50\System.Net.Http.dll">
+      <PackagePath>System.Net.Http.dll</PackagePath>
+      <Modified>2016-10-16T07:38:08.667</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Net.Http.Rtc\4.0.0\lib\netcore50\System.Net.Http.Rtc.dll">
+      <PackagePath>System.Net.Http.Rtc.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.297</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Net.NetworkInformation\4.0.0\lib\netcore50\System.Net.NetworkInformation.dll">
+      <PackagePath>System.Net.NetworkInformation.dll</PackagePath>
+      <Modified>2016-10-16T07:38:08.729</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Net.Primitives\4.0.10\lib\netcore50\System.Net.Primitives.dll">
+      <PackagePath>System.Net.Primitives.dll</PackagePath>
+      <Modified>2016-10-16T07:38:08.578</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Net.Requests\4.0.10\lib\dotnet\System.Net.Requests.dll">
+      <PackagePath>System.Net.Requests.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.225</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Net.Sockets\4.0.0\lib\netcore50\System.Net.Sockets.dll">
+      <PackagePath>System.Net.Sockets.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.422</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Net.WebHeaderCollection\4.0.0\lib\dotnet\System.Net.WebHeaderCollection.dll">
+      <PackagePath>System.Net.WebHeaderCollection.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.231</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Numerics.Vectors\4.1.0\lib\dotnet\System.Numerics.Vectors.dll">
+      <PackagePath>System.Numerics.Vectors.dll</PackagePath>
+      <Modified>2016-10-16T07:38:09.115</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Numerics.Vectors.WindowsRuntime\4.0.0\lib\dotnet\System.Numerics.Vectors.WindowsRuntime.dll">
+      <PackagePath>System.Numerics.Vectors.WindowsRuntime.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.400</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.ObjectModel\4.0.10\lib\dotnet\System.ObjectModel.dll">
+      <PackagePath>System.ObjectModel.dll</PackagePath>
+      <Modified>2016-10-16T07:38:09.533</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Private.DataContractSerialization\4.0.0\lib\netcore50\System.Private.DataContractSerialization.dll">
+      <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
+      <Modified>2016-10-16T07:38:10.857</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Private.Networking\4.0.0\lib\netcore50\System.Private.Networking.dll">
+      <PackagePath>System.Private.Networking.dll</PackagePath>
+      <Modified>2016-10-16T07:38:10.250</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Private.ServiceModel\4.0.0\lib\netcore50\System.Private.ServiceModel.dll">
+      <PackagePath>System.Private.ServiceModel.dll</PackagePath>
+      <Modified>2016-10-16T07:38:10.925</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Private.Uri\4.0.0\lib\netcore50\System.Private.Uri.dll">
+      <PackagePath>System.Private.Uri.dll</PackagePath>
+      <Modified>2016-10-16T07:38:09.374</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Reflection\4.0.10\lib\netcore50\System.Reflection.dll">
+      <PackagePath>System.Reflection.dll</PackagePath>
+      <Modified>2016-10-16T07:38:08.118</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Reflection.Context\4.0.0\lib\netcore50\System.Reflection.Context.dll">
+      <PackagePath>System.Reflection.Context.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.553</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Reflection.DispatchProxy\4.0.0\lib\netcore50\System.Reflection.DispatchProxy.dll">
+      <PackagePath>System.Reflection.DispatchProxy.dll</PackagePath>
+      <Modified>2016-10-16T07:38:08.909</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Reflection.Emit\4.0.0\lib\netcore50\System.Reflection.Emit.dll">
+      <PackagePath>System.Reflection.Emit.dll</PackagePath>
+      <Modified>2016-10-16T07:38:18.313</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Reflection.Emit.ILGeneration\4.0.0\lib\netcore50\System.Reflection.Emit.ILGeneration.dll">
+      <PackagePath>System.Reflection.Emit.ILGeneration.dll</PackagePath>
+      <Modified>2016-10-16T07:38:18.279</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Reflection.Emit.Lightweight\4.0.0\lib\netcore50\System.Reflection.Emit.Lightweight.dll">
+      <PackagePath>System.Reflection.Emit.Lightweight.dll</PackagePath>
+      <Modified>2016-10-16T07:38:18.391</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Reflection.Extensions\4.0.0\lib\netcore50\System.Reflection.Extensions.dll">
+      <PackagePath>System.Reflection.Extensions.dll</PackagePath>
+      <Modified>2016-10-16T07:38:08.145</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Reflection.Metadata\1.0.22\lib\dotnet\System.Reflection.Metadata.dll">
+      <PackagePath>System.Reflection.Metadata.dll</PackagePath>
+      <Modified>2016-10-16T07:38:09.490</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Reflection.Primitives\4.0.0\lib\netcore50\System.Reflection.Primitives.dll">
+      <PackagePath>System.Reflection.Primitives.dll</PackagePath>
+      <Modified>2016-10-16T07:38:08.458</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Reflection.TypeExtensions\4.0.0\lib\netcore50\System.Reflection.TypeExtensions.dll">
+      <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
+      <Modified>2016-10-16T07:38:08.254</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Resources.ResourceManager\4.0.0\lib\netcore50\System.Resources.ResourceManager.dll">
+      <PackagePath>System.Resources.ResourceManager.dll</PackagePath>
+      <Modified>2016-10-16T07:38:08.023</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Runtime\4.0.20\lib\netcore50\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2016-10-16T07:38:08.846</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Runtime.Extensions\4.0.10\lib\netcore50\System.Runtime.Extensions.dll">
+      <PackagePath>System.Runtime.Extensions.dll</PackagePath>
+      <Modified>2016-10-16T07:38:08.313</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Runtime.Handles\4.0.0\lib\netcore50\System.Runtime.Handles.dll">
+      <PackagePath>System.Runtime.Handles.dll</PackagePath>
+      <Modified>2016-10-16T07:38:09.850</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Runtime.InteropServices\4.0.20\lib\netcore50\System.Runtime.InteropServices.dll">
+      <PackagePath>System.Runtime.InteropServices.dll</PackagePath>
+      <Modified>2016-10-16T07:38:09.934</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Runtime.InteropServices.WindowsRuntime\4.0.0\lib\netcore50\System.Runtime.InteropServices.WindowsRuntime.dll">
+      <PackagePath>System.Runtime.InteropServices.WindowsRuntime.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.186</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Runtime.Numerics\4.0.0\lib\netcore50\System.Runtime.Numerics.dll">
+      <PackagePath>System.Runtime.Numerics.dll</PackagePath>
+      <Modified>2016-10-16T07:38:09.612</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Runtime.Serialization.Json\4.0.0\lib\netcore50\System.Runtime.Serialization.Json.dll">
+      <PackagePath>System.Runtime.Serialization.Json.dll</PackagePath>
+      <Modified>2016-10-16T07:38:08.007</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Runtime.Serialization.Primitives\4.0.10\lib\dotnet\System.Runtime.Serialization.Primitives.dll">
+      <PackagePath>System.Runtime.Serialization.Primitives.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.494</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Runtime.Serialization.Xml\4.0.10\lib\netcore50\System.Runtime.Serialization.Xml.dll">
+      <PackagePath>System.Runtime.Serialization.Xml.dll</PackagePath>
+      <Modified>2016-10-16T07:38:08.091</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Runtime.WindowsRuntime\4.0.10\lib\netcore50\System.Runtime.WindowsRuntime.dll">
+      <PackagePath>System.Runtime.WindowsRuntime.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.610</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Runtime.WindowsRuntime.UI.Xaml\4.0.0\lib\netcore50\System.Runtime.WindowsRuntime.UI.Xaml.dll">
+      <PackagePath>System.Runtime.WindowsRuntime.UI.Xaml.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.675</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Security.Claims\4.0.0\lib\dotnet\System.Security.Claims.dll">
+      <PackagePath>System.Security.Claims.dll</PackagePath>
+      <Modified>2016-10-16T07:38:09.335</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Security.Principal\4.0.0\lib\netcore50\System.Security.Principal.dll">
+      <PackagePath>System.Security.Principal.dll</PackagePath>
+      <Modified>2016-10-16T07:38:08.990</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.ServiceModel.Duplex\4.0.0\lib\netcore50\System.ServiceModel.Duplex.dll">
+      <PackagePath>System.ServiceModel.Duplex.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.267</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.ServiceModel.Http\4.0.10\lib\netcore50\System.ServiceModel.Http.dll">
+      <PackagePath>System.ServiceModel.Http.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.473</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.ServiceModel.NetTcp\4.0.0\lib\netcore50\System.ServiceModel.NetTcp.dll">
+      <PackagePath>System.ServiceModel.NetTcp.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.435</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.ServiceModel.Primitives\4.0.0\lib\netcore50\System.ServiceModel.Primitives.dll">
+      <PackagePath>System.ServiceModel.Primitives.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.803</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.ServiceModel.Security\4.0.0\lib\netcore50\System.ServiceModel.Security.dll">
+      <PackagePath>System.ServiceModel.Security.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.532</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Text.Encoding\4.0.10\lib\netcore50\System.Text.Encoding.dll">
+      <PackagePath>System.Text.Encoding.dll</PackagePath>
+      <Modified>2016-10-16T07:38:09.147</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Text.Encoding.CodePages\4.0.0\lib\dotnet\System.Text.Encoding.CodePages.dll">
+      <PackagePath>System.Text.Encoding.CodePages.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.795</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Text.Encoding.Extensions\4.0.10\lib\netcore50\System.Text.Encoding.Extensions.dll">
+      <PackagePath>System.Text.Encoding.Extensions.dll</PackagePath>
+      <Modified>2016-10-16T07:38:09.144</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Text.RegularExpressions\4.0.10\lib\dotnet\System.Text.RegularExpressions.dll">
+      <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
+      <Modified>2016-10-16T07:38:08.477</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Threading\4.0.10\lib\netcore50\System.Threading.dll">
+      <PackagePath>System.Threading.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.977</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Threading.Overlapped\4.0.0\lib\netcore50\System.Threading.Overlapped.dll">
+      <PackagePath>System.Threading.Overlapped.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.125</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Threading.Tasks\4.0.10\lib\netcore50\System.Threading.Tasks.dll">
+      <PackagePath>System.Threading.Tasks.dll</PackagePath>
+      <Modified>2016-10-16T07:38:08.104</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Threading.Tasks.Dataflow\4.5.25\lib\dotnet\System.Threading.Tasks.Dataflow.dll">
+      <PackagePath>System.Threading.Tasks.Dataflow.dll</PackagePath>
+      <Modified>2016-10-16T07:38:09.920</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Threading.Tasks.Parallel\4.0.0\lib\netcore50\System.Threading.Tasks.Parallel.dll">
+      <PackagePath>System.Threading.Tasks.Parallel.dll</PackagePath>
+      <Modified>2016-10-16T07:38:08.983</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Threading.Timer\4.0.0\lib\netcore50\System.Threading.Timer.dll">
+      <PackagePath>System.Threading.Timer.dll</PackagePath>
+      <Modified>2016-10-16T07:38:09.053</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Xml.ReaderWriter\4.0.10\lib\dotnet\System.Xml.ReaderWriter.dll">
+      <PackagePath>System.Xml.ReaderWriter.dll</PackagePath>
+      <Modified>2016-10-16T07:38:08.818</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Xml.XDocument\4.0.10\lib\dotnet\System.Xml.XDocument.dll">
+      <PackagePath>System.Xml.XDocument.dll</PackagePath>
+      <Modified>2016-10-16T07:38:09.173</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Xml.XmlDocument\4.0.0\lib\dotnet\System.Xml.XmlDocument.dll">
+      <PackagePath>System.Xml.XmlDocument.dll</PackagePath>
+      <Modified>2016-10-16T07:38:08.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
+      <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
+      <Modified>2016-10-16T07:38:07.602</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\Players\UAP\x86\Debug\UnityEngineProxy.dll">
+      <PackagePath>UnityEngineProxy.dll</PackagePath>
+      <Modified>2016-10-07T01:04:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Unprocessed\WinRTLegacy.dll">
+      <PackagePath>WinRTLegacy.dll</PackagePath>
+      <Modified>2016-10-07T00:10:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\Players\UAP\x86\Debug\UnityPlayer.dll">
+      <PackagePath>UnityPlayer.dll</PackagePath>
+      <Modified>2016-10-07T01:08:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\Players\UAP\x86\Debug\BridgeInterface.dll">
+      <PackagePath>BridgeInterface.dll</PackagePath>
+      <Modified>2016-10-07T01:03:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\Players\UAP\x86\Debug\UnityEngineDelegates.dll">
+      <PackagePath>UnityEngineDelegates.dll</PackagePath>
+      <Modified>2016-10-07T01:03:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\Players\UAP\x86\Debug\BridgeInterface.winmd">
+      <PackagePath>BridgeInterface.winmd</PackagePath>
+      <Modified>2016-10-07T01:03:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\Players\UAP\x86\Debug\UnityEngineDelegates.winmd">
+      <PackagePath>UnityEngineDelegates.winmd</PackagePath>
+      <Modified>2016-10-07T01:03:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\Players\UAP\x86\Debug\UnityPlayer.winmd">
+      <PackagePath>UnityPlayer.winmd</PackagePath>
+      <Modified>2016-10-07T01:08:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\Players\UAP\x86\Debug\WinRTBridge.winmd">
+      <PackagePath>WinRTBridge.winmd</PackagePath>
+      <Modified>2016-10-07T01:03:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-10-06T23:08:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-10-05T01:06:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-10-05T01:07:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-10-05T01:02:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-10-05T01:05:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-10-05T01:07:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2016-09-19T21:52:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\8c\8c73594b014f087f893322771b1fbf52.caw">
+      <PackagePath>Data\GI\level2\8c\8c73594b014f087f893322771b1fbf52.caw</PackagePath>
+      <Modified>2016-10-20T14:14:30.324</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\a9\a9036418ccd03a39d49b6f0ce6e25045.caw">
+      <PackagePath>Data\GI\level2\a9\a9036418ccd03a39d49b6f0ce6e25045.caw</PackagePath>
+      <Modified>2016-10-20T14:14:30.331</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\ab\ab7d31c91cfb3f78bd71af790f781ecf.caw">
+      <PackagePath>Data\GI\level2\ab\ab7d31c91cfb3f78bd71af790f781ecf.caw</PackagePath>
+      <Modified>2016-10-20T14:14:30.349</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\fd\fdaedf9a83ad32b60da2949b0a93a6c0.caw">
+      <PackagePath>Data\GI\level2\fd\fdaedf9a83ad32b60da2949b0a93a6c0.caw</PackagePath>
+      <Modified>2016-10-20T14:14:30.367</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\5f\5ff929044018bb1d518bf31d94c46351.caw">
+      <PackagePath>Data\GI\level3\5f\5ff929044018bb1d518bf31d94c46351.caw</PackagePath>
+      <Modified>2016-10-20T14:14:35.025</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\c6\c6cbff837d105c390434aab9b480140a.caw">
+      <PackagePath>Data\GI\level3\c6\c6cbff837d105c390434aab9b480140a.caw</PackagePath>
+      <Modified>2016-10-20T14:14:35.043</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\ef\ef0f092d8c7074df1e633d9086eacf9f.caw">
+      <PackagePath>Data\GI\level3\ef\ef0f092d8c7074df1e633d9086eacf9f.caw</PackagePath>
+      <Modified>2016-10-20T14:14:35.059</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\f5\f54ac72d29580d76cd50dc53fcb41b56.caw">
+      <PackagePath>Data\GI\level3\f5\f54ac72d29580d76cd50dc53fcb41b56.caw</PackagePath>
+      <Modified>2016-10-20T14:14:35.075</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\3a\3a36f629a71944b6536286c0b49bc4b7.caw">
+      <PackagePath>Data\GI\level4\3a\3a36f629a71944b6536286c0b49bc4b7.caw</PackagePath>
+      <Modified>2016-10-20T14:14:39.796</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\55\55101229332f240bf1ced481edde6242.caw">
+      <PackagePath>Data\GI\level4\55\55101229332f240bf1ced481edde6242.caw</PackagePath>
+      <Modified>2016-10-20T14:14:39.808</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\a9\a9aa8f431dd64e4ab1a42f24a054456b.caw">
+      <PackagePath>Data\GI\level4\a9\a9aa8f431dd64e4ab1a42f24a054456b.caw</PackagePath>
+      <Modified>2016-10-20T14:14:39.819</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\bb\bb7bfd008cbed0535e9f1ce34524dfbb.caw">
+      <PackagePath>Data\GI\level4\bb\bb7bfd008cbed0535e9f1ce34524dfbb.caw</PackagePath>
+      <Modified>2016-10-20T14:14:39.829</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\52\528d1c34fed2b41097d5e97e894246ea.caw">
+      <PackagePath>Data\GI\level5\52\528d1c34fed2b41097d5e97e894246ea.caw</PackagePath>
+      <Modified>2016-10-20T14:14:44.481</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\60\6084331c63353cf799db9832231d0c0d.caw">
+      <PackagePath>Data\GI\level5\60\6084331c63353cf799db9832231d0c0d.caw</PackagePath>
+      <Modified>2016-10-20T14:14:44.492</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\8a\8a75baa6185fc0304a0ccc4c7c682bcf.caw">
+      <PackagePath>Data\GI\level5\8a\8a75baa6185fc0304a0ccc4c7c682bcf.caw</PackagePath>
+      <Modified>2016-10-20T14:14:44.502</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\e4\e429e6ebf3c4ac4b640a3e278210c397.caw">
+      <PackagePath>Data\GI\level5\e4\e429e6ebf3c4ac4b640a3e278210c397.caw</PackagePath>
+      <Modified>2016-10-20T14:14:44.513</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\8c\8c73594b014f087f893322771b1fbf52.ecm">
+      <PackagePath>Data\GI\level2\8c\8c73594b014f087f893322771b1fbf52.ecm</PackagePath>
+      <Modified>2016-10-20T14:14:30.325</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\a9\a9036418ccd03a39d49b6f0ce6e25045.ecm">
+      <PackagePath>Data\GI\level2\a9\a9036418ccd03a39d49b6f0ce6e25045.ecm</PackagePath>
+      <Modified>2016-10-20T14:14:30.337</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\ab\ab7d31c91cfb3f78bd71af790f781ecf.ecm">
+      <PackagePath>Data\GI\level2\ab\ab7d31c91cfb3f78bd71af790f781ecf.ecm</PackagePath>
+      <Modified>2016-10-20T14:14:30.350</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\fd\fdaedf9a83ad32b60da2949b0a93a6c0.ecm">
+      <PackagePath>Data\GI\level2\fd\fdaedf9a83ad32b60da2949b0a93a6c0.ecm</PackagePath>
+      <Modified>2016-10-20T14:14:30.370</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\5f\5ff929044018bb1d518bf31d94c46351.ecm">
+      <PackagePath>Data\GI\level3\5f\5ff929044018bb1d518bf31d94c46351.ecm</PackagePath>
+      <Modified>2016-10-20T14:14:35.027</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\c6\c6cbff837d105c390434aab9b480140a.ecm">
+      <PackagePath>Data\GI\level3\c6\c6cbff837d105c390434aab9b480140a.ecm</PackagePath>
+      <Modified>2016-10-20T14:14:35.045</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\ef\ef0f092d8c7074df1e633d9086eacf9f.ecm">
+      <PackagePath>Data\GI\level3\ef\ef0f092d8c7074df1e633d9086eacf9f.ecm</PackagePath>
+      <Modified>2016-10-20T14:14:35.062</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\f5\f54ac72d29580d76cd50dc53fcb41b56.ecm">
+      <PackagePath>Data\GI\level3\f5\f54ac72d29580d76cd50dc53fcb41b56.ecm</PackagePath>
+      <Modified>2016-10-20T14:14:35.075</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\3a\3a36f629a71944b6536286c0b49bc4b7.ecm">
+      <PackagePath>Data\GI\level4\3a\3a36f629a71944b6536286c0b49bc4b7.ecm</PackagePath>
+      <Modified>2016-10-20T14:14:39.797</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\55\55101229332f240bf1ced481edde6242.ecm">
+      <PackagePath>Data\GI\level4\55\55101229332f240bf1ced481edde6242.ecm</PackagePath>
+      <Modified>2016-10-20T14:14:39.809</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\a9\a9aa8f431dd64e4ab1a42f24a054456b.ecm">
+      <PackagePath>Data\GI\level4\a9\a9aa8f431dd64e4ab1a42f24a054456b.ecm</PackagePath>
+      <Modified>2016-10-20T14:14:39.819</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\bb\bb7bfd008cbed0535e9f1ce34524dfbb.ecm">
+      <PackagePath>Data\GI\level4\bb\bb7bfd008cbed0535e9f1ce34524dfbb.ecm</PackagePath>
+      <Modified>2016-10-20T14:14:39.829</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\52\528d1c34fed2b41097d5e97e894246ea.ecm">
+      <PackagePath>Data\GI\level5\52\528d1c34fed2b41097d5e97e894246ea.ecm</PackagePath>
+      <Modified>2016-10-20T14:14:44.482</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\60\6084331c63353cf799db9832231d0c0d.ecm">
+      <PackagePath>Data\GI\level5\60\6084331c63353cf799db9832231d0c0d.ecm</PackagePath>
+      <Modified>2016-10-20T14:14:44.493</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\8a\8a75baa6185fc0304a0ccc4c7c682bcf.ecm">
+      <PackagePath>Data\GI\level5\8a\8a75baa6185fc0304a0ccc4c7c682bcf.ecm</PackagePath>
+      <Modified>2016-10-20T14:14:44.502</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\e4\e429e6ebf3c4ac4b640a3e278210c397.ecm">
+      <PackagePath>Data\GI\level5\e4\e429e6ebf3c4ac4b640a3e278210c397.ecm</PackagePath>
+      <Modified>2016-10-20T14:14:44.517</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\8c\8c73594b014f087f893322771b1fbf52.iws.sse">
+      <PackagePath>Data\GI\level2\8c\8c73594b014f087f893322771b1fbf52.iws.sse</PackagePath>
+      <Modified>2016-10-20T14:14:30.327</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\8c\8c73594b014f087f893322771b1fbf52.rsc.sse">
+      <PackagePath>Data\GI\level2\8c\8c73594b014f087f893322771b1fbf52.rsc.sse</PackagePath>
+      <Modified>2016-10-20T14:14:30.331</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\a9\a9036418ccd03a39d49b6f0ce6e25045.iws.sse">
+      <PackagePath>Data\GI\level2\a9\a9036418ccd03a39d49b6f0ce6e25045.iws.sse</PackagePath>
+      <Modified>2016-10-20T14:14:30.339</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\a9\a9036418ccd03a39d49b6f0ce6e25045.rsc.sse">
+      <PackagePath>Data\GI\level2\a9\a9036418ccd03a39d49b6f0ce6e25045.rsc.sse</PackagePath>
+      <Modified>2016-10-20T14:14:30.341</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\ab\ab7d31c91cfb3f78bd71af790f781ecf.iws.sse">
+      <PackagePath>Data\GI\level2\ab\ab7d31c91cfb3f78bd71af790f781ecf.iws.sse</PackagePath>
+      <Modified>2016-10-20T14:14:30.355</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\ab\ab7d31c91cfb3f78bd71af790f781ecf.rsc.sse">
+      <PackagePath>Data\GI\level2\ab\ab7d31c91cfb3f78bd71af790f781ecf.rsc.sse</PackagePath>
+      <Modified>2016-10-20T14:14:30.360</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\e7\e7b1129f05a8c0153c8faef2d71fc29d.rpc.sse">
+      <PackagePath>Data\GI\level2\e7\e7b1129f05a8c0153c8faef2d71fc29d.rpc.sse</PackagePath>
+      <Modified>2016-10-20T14:14:30.365</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\fd\fdaedf9a83ad32b60da2949b0a93a6c0.iws.sse">
+      <PackagePath>Data\GI\level2\fd\fdaedf9a83ad32b60da2949b0a93a6c0.iws.sse</PackagePath>
+      <Modified>2016-10-20T14:14:30.371</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\fd\fdaedf9a83ad32b60da2949b0a93a6c0.rsc.sse">
+      <PackagePath>Data\GI\level2\fd\fdaedf9a83ad32b60da2949b0a93a6c0.rsc.sse</PackagePath>
+      <Modified>2016-10-20T14:14:30.376</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\5f\5ff929044018bb1d518bf31d94c46351.iws.sse">
+      <PackagePath>Data\GI\level3\5f\5ff929044018bb1d518bf31d94c46351.iws.sse</PackagePath>
+      <Modified>2016-10-20T14:14:35.029</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\5f\5ff929044018bb1d518bf31d94c46351.rsc.sse">
+      <PackagePath>Data\GI\level3\5f\5ff929044018bb1d518bf31d94c46351.rsc.sse</PackagePath>
+      <Modified>2016-10-20T14:14:35.033</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\a6\a60b72522c6cbf0a3658b0a131bb7fb6.rpc.sse">
+      <PackagePath>Data\GI\level3\a6\a60b72522c6cbf0a3658b0a131bb7fb6.rpc.sse</PackagePath>
+      <Modified>2016-10-20T14:14:35.041</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\c6\c6cbff837d105c390434aab9b480140a.iws.sse">
+      <PackagePath>Data\GI\level3\c6\c6cbff837d105c390434aab9b480140a.iws.sse</PackagePath>
+      <Modified>2016-10-20T14:14:35.045</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\c6\c6cbff837d105c390434aab9b480140a.rsc.sse">
+      <PackagePath>Data\GI\level3\c6\c6cbff837d105c390434aab9b480140a.rsc.sse</PackagePath>
+      <Modified>2016-10-20T14:14:35.051</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\ef\ef0f092d8c7074df1e633d9086eacf9f.iws.sse">
+      <PackagePath>Data\GI\level3\ef\ef0f092d8c7074df1e633d9086eacf9f.iws.sse</PackagePath>
+      <Modified>2016-10-20T14:14:35.064</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\ef\ef0f092d8c7074df1e633d9086eacf9f.rsc.sse">
+      <PackagePath>Data\GI\level3\ef\ef0f092d8c7074df1e633d9086eacf9f.rsc.sse</PackagePath>
+      <Modified>2016-10-20T14:14:35.065</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\f5\f54ac72d29580d76cd50dc53fcb41b56.iws.sse">
+      <PackagePath>Data\GI\level3\f5\f54ac72d29580d76cd50dc53fcb41b56.iws.sse</PackagePath>
+      <Modified>2016-10-20T14:14:35.079</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\f5\f54ac72d29580d76cd50dc53fcb41b56.rsc.sse">
+      <PackagePath>Data\GI\level3\f5\f54ac72d29580d76cd50dc53fcb41b56.rsc.sse</PackagePath>
+      <Modified>2016-10-20T14:14:35.084</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\3a\3a36f629a71944b6536286c0b49bc4b7.iws.sse">
+      <PackagePath>Data\GI\level4\3a\3a36f629a71944b6536286c0b49bc4b7.iws.sse</PackagePath>
+      <Modified>2016-10-20T14:14:39.799</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\3a\3a36f629a71944b6536286c0b49bc4b7.rsc.sse">
+      <PackagePath>Data\GI\level4\3a\3a36f629a71944b6536286c0b49bc4b7.rsc.sse</PackagePath>
+      <Modified>2016-10-20T14:14:39.803</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\55\55101229332f240bf1ced481edde6242.iws.sse">
+      <PackagePath>Data\GI\level4\55\55101229332f240bf1ced481edde6242.iws.sse</PackagePath>
+      <Modified>2016-10-20T14:14:39.809</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\55\55101229332f240bf1ced481edde6242.rsc.sse">
+      <PackagePath>Data\GI\level4\55\55101229332f240bf1ced481edde6242.rsc.sse</PackagePath>
+      <Modified>2016-10-20T14:14:39.816</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\a9\a9aa8f431dd64e4ab1a42f24a054456b.iws.sse">
+      <PackagePath>Data\GI\level4\a9\a9aa8f431dd64e4ab1a42f24a054456b.iws.sse</PackagePath>
+      <Modified>2016-10-20T14:14:39.819</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\a9\a9aa8f431dd64e4ab1a42f24a054456b.rsc.sse">
+      <PackagePath>Data\GI\level4\a9\a9aa8f431dd64e4ab1a42f24a054456b.rsc.sse</PackagePath>
+      <Modified>2016-10-20T14:14:39.828</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\bb\bb7bfd008cbed0535e9f1ce34524dfbb.iws.sse">
+      <PackagePath>Data\GI\level4\bb\bb7bfd008cbed0535e9f1ce34524dfbb.iws.sse</PackagePath>
+      <Modified>2016-10-20T14:14:39.834</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\bb\bb7bfd008cbed0535e9f1ce34524dfbb.rsc.sse">
+      <PackagePath>Data\GI\level4\bb\bb7bfd008cbed0535e9f1ce34524dfbb.rsc.sse</PackagePath>
+      <Modified>2016-10-20T14:14:39.838</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\bc\bcbac9d607eb70adc7f831b2aeb2151b.rpc.sse">
+      <PackagePath>Data\GI\level4\bc\bcbac9d607eb70adc7f831b2aeb2151b.rpc.sse</PackagePath>
+      <Modified>2016-10-20T14:14:39.847</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\52\528d1c34fed2b41097d5e97e894246ea.iws.sse">
+      <PackagePath>Data\GI\level5\52\528d1c34fed2b41097d5e97e894246ea.iws.sse</PackagePath>
+      <Modified>2016-10-20T14:14:44.482</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\52\528d1c34fed2b41097d5e97e894246ea.rsc.sse">
+      <PackagePath>Data\GI\level5\52\528d1c34fed2b41097d5e97e894246ea.rsc.sse</PackagePath>
+      <Modified>2016-10-20T14:14:44.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\60\6084331c63353cf799db9832231d0c0d.iws.sse">
+      <PackagePath>Data\GI\level5\60\6084331c63353cf799db9832231d0c0d.iws.sse</PackagePath>
+      <Modified>2016-10-20T14:14:44.493</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\60\6084331c63353cf799db9832231d0c0d.rsc.sse">
+      <PackagePath>Data\GI\level5\60\6084331c63353cf799db9832231d0c0d.rsc.sse</PackagePath>
+      <Modified>2016-10-20T14:14:44.501</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\8a\8a75baa6185fc0304a0ccc4c7c682bcf.iws.sse">
+      <PackagePath>Data\GI\level5\8a\8a75baa6185fc0304a0ccc4c7c682bcf.iws.sse</PackagePath>
+      <Modified>2016-10-20T14:14:44.502</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\8a\8a75baa6185fc0304a0ccc4c7c682bcf.rsc.sse">
+      <PackagePath>Data\GI\level5\8a\8a75baa6185fc0304a0ccc4c7c682bcf.rsc.sse</PackagePath>
+      <Modified>2016-10-20T14:14:44.510</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\e2\e26b6bcff3d0eca1401cfc94eaad465b.rpc.sse">
+      <PackagePath>Data\GI\level5\e2\e26b6bcff3d0eca1401cfc94eaad465b.rpc.sse</PackagePath>
+      <Modified>2016-10-20T14:14:44.513</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\e4\e429e6ebf3c4ac4b640a3e278210c397.iws.sse">
+      <PackagePath>Data\GI\level5\e4\e429e6ebf3c4ac4b640a3e278210c397.iws.sse</PackagePath>
+      <Modified>2016-10-20T14:14:44.519</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\e4\e429e6ebf3c4ac4b640a3e278210c397.rsc.sse">
+      <PackagePath>Data\GI\level5\e4\e429e6ebf3c4ac4b640a3e278210c397.rsc.sse</PackagePath>
+      <Modified>2016-10-20T14:14:44.522</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\8c\8c73594b014f087f893322771b1fbf52.rgb">
+      <PackagePath>Data\GI\level2\8c\8c73594b014f087f893322771b1fbf52.rgb</PackagePath>
+      <Modified>2016-10-20T14:14:30.328</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\a9\a9036418ccd03a39d49b6f0ce6e25045.rgb">
+      <PackagePath>Data\GI\level2\a9\a9036418ccd03a39d49b6f0ce6e25045.rgb</PackagePath>
+      <Modified>2016-10-20T14:14:30.341</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\ab\ab7d31c91cfb3f78bd71af790f781ecf.rgb">
+      <PackagePath>Data\GI\level2\ab\ab7d31c91cfb3f78bd71af790f781ecf.rgb</PackagePath>
+      <Modified>2016-10-20T14:14:30.357</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\fd\fdaedf9a83ad32b60da2949b0a93a6c0.rgb">
+      <PackagePath>Data\GI\level2\fd\fdaedf9a83ad32b60da2949b0a93a6c0.rgb</PackagePath>
+      <Modified>2016-10-20T14:14:30.371</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\5f\5ff929044018bb1d518bf31d94c46351.rgb">
+      <PackagePath>Data\GI\level3\5f\5ff929044018bb1d518bf31d94c46351.rgb</PackagePath>
+      <Modified>2016-10-20T14:14:35.030</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\c6\c6cbff837d105c390434aab9b480140a.rgb">
+      <PackagePath>Data\GI\level3\c6\c6cbff837d105c390434aab9b480140a.rgb</PackagePath>
+      <Modified>2016-10-20T14:14:35.045</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\ef\ef0f092d8c7074df1e633d9086eacf9f.rgb">
+      <PackagePath>Data\GI\level3\ef\ef0f092d8c7074df1e633d9086eacf9f.rgb</PackagePath>
+      <Modified>2016-10-20T14:14:35.065</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\f5\f54ac72d29580d76cd50dc53fcb41b56.rgb">
+      <PackagePath>Data\GI\level3\f5\f54ac72d29580d76cd50dc53fcb41b56.rgb</PackagePath>
+      <Modified>2016-10-20T14:14:35.081</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\3a\3a36f629a71944b6536286c0b49bc4b7.rgb">
+      <PackagePath>Data\GI\level4\3a\3a36f629a71944b6536286c0b49bc4b7.rgb</PackagePath>
+      <Modified>2016-10-20T14:14:39.800</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\55\55101229332f240bf1ced481edde6242.rgb">
+      <PackagePath>Data\GI\level4\55\55101229332f240bf1ced481edde6242.rgb</PackagePath>
+      <Modified>2016-10-20T14:14:39.814</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\a9\a9aa8f431dd64e4ab1a42f24a054456b.rgb">
+      <PackagePath>Data\GI\level4\a9\a9aa8f431dd64e4ab1a42f24a054456b.rgb</PackagePath>
+      <Modified>2016-10-20T14:14:39.825</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\bb\bb7bfd008cbed0535e9f1ce34524dfbb.rgb">
+      <PackagePath>Data\GI\level4\bb\bb7bfd008cbed0535e9f1ce34524dfbb.rgb</PackagePath>
+      <Modified>2016-10-20T14:14:39.835</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\52\528d1c34fed2b41097d5e97e894246ea.rgb">
+      <PackagePath>Data\GI\level5\52\528d1c34fed2b41097d5e97e894246ea.rgb</PackagePath>
+      <Modified>2016-10-20T14:14:44.486</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\60\6084331c63353cf799db9832231d0c0d.rgb">
+      <PackagePath>Data\GI\level5\60\6084331c63353cf799db9832231d0c0d.rgb</PackagePath>
+      <Modified>2016-10-20T14:14:44.498</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\8a\8a75baa6185fc0304a0ccc4c7c682bcf.rgb">
+      <PackagePath>Data\GI\level5\8a\8a75baa6185fc0304a0ccc4c7c682bcf.rgb</PackagePath>
+      <Modified>2016-10-20T14:14:44.507</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\e4\e429e6ebf3c4ac4b640a3e278210c397.rgb">
+      <PackagePath>Data\GI\level5\e4\e429e6ebf3c4ac4b640a3e278210c397.rgb</PackagePath>
+      <Modified>2016-10-20T14:14:44.520</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\8c\8c73594b014f087f893322771b1fbf52.vis">
+      <PackagePath>Data\GI\level2\8c\8c73594b014f087f893322771b1fbf52.vis</PackagePath>
+      <Modified>2016-10-20T14:14:30.331</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\a9\a9036418ccd03a39d49b6f0ce6e25045.vis">
+      <PackagePath>Data\GI\level2\a9\a9036418ccd03a39d49b6f0ce6e25045.vis</PackagePath>
+      <Modified>2016-10-20T14:14:30.347</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\ab\ab7d31c91cfb3f78bd71af790f781ecf.vis">
+      <PackagePath>Data\GI\level2\ab\ab7d31c91cfb3f78bd71af790f781ecf.vis</PackagePath>
+      <Modified>2016-10-20T14:14:30.361</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\fd\fdaedf9a83ad32b60da2949b0a93a6c0.vis">
+      <PackagePath>Data\GI\level2\fd\fdaedf9a83ad32b60da2949b0a93a6c0.vis</PackagePath>
+      <Modified>2016-10-20T14:14:30.377</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\5f\5ff929044018bb1d518bf31d94c46351.vis">
+      <PackagePath>Data\GI\level3\5f\5ff929044018bb1d518bf31d94c46351.vis</PackagePath>
+      <Modified>2016-10-20T14:14:35.034</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\c6\c6cbff837d105c390434aab9b480140a.vis">
+      <PackagePath>Data\GI\level3\c6\c6cbff837d105c390434aab9b480140a.vis</PackagePath>
+      <Modified>2016-10-20T14:14:35.053</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\ef\ef0f092d8c7074df1e633d9086eacf9f.vis">
+      <PackagePath>Data\GI\level3\ef\ef0f092d8c7074df1e633d9086eacf9f.vis</PackagePath>
+      <Modified>2016-10-20T14:14:35.074</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\f5\f54ac72d29580d76cd50dc53fcb41b56.vis">
+      <PackagePath>Data\GI\level3\f5\f54ac72d29580d76cd50dc53fcb41b56.vis</PackagePath>
+      <Modified>2016-10-20T14:14:35.086</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\3a\3a36f629a71944b6536286c0b49bc4b7.vis">
+      <PackagePath>Data\GI\level4\3a\3a36f629a71944b6536286c0b49bc4b7.vis</PackagePath>
+      <Modified>2016-10-20T14:14:39.804</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\55\55101229332f240bf1ced481edde6242.vis">
+      <PackagePath>Data\GI\level4\55\55101229332f240bf1ced481edde6242.vis</PackagePath>
+      <Modified>2016-10-20T14:14:39.818</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\a9\a9aa8f431dd64e4ab1a42f24a054456b.vis">
+      <PackagePath>Data\GI\level4\a9\a9aa8f431dd64e4ab1a42f24a054456b.vis</PackagePath>
+      <Modified>2016-10-20T14:14:39.829</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\bb\bb7bfd008cbed0535e9f1ce34524dfbb.vis">
+      <PackagePath>Data\GI\level4\bb\bb7bfd008cbed0535e9f1ce34524dfbb.vis</PackagePath>
+      <Modified>2016-10-20T14:14:39.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\52\528d1c34fed2b41097d5e97e894246ea.vis">
+      <PackagePath>Data\GI\level5\52\528d1c34fed2b41097d5e97e894246ea.vis</PackagePath>
+      <Modified>2016-10-20T14:14:44.490</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\60\6084331c63353cf799db9832231d0c0d.vis">
+      <PackagePath>Data\GI\level5\60\6084331c63353cf799db9832231d0c0d.vis</PackagePath>
+      <Modified>2016-10-20T14:14:44.502</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\8a\8a75baa6185fc0304a0ccc4c7c682bcf.vis">
+      <PackagePath>Data\GI\level5\8a\8a75baa6185fc0304a0ccc4c7c682bcf.vis</PackagePath>
+      <Modified>2016-10-20T14:14:44.512</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\e4\e429e6ebf3c4ac4b640a3e278210c397.vis">
+      <PackagePath>Data\GI\level5\e4\e429e6ebf3c4ac4b640a3e278210c397.vis</PackagePath>
+      <Modified>2016-10-20T14:14:44.523</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\e7\e7b1129f05a8c0153c8faef2d71fc29d.pos">
+      <PackagePath>Data\GI\level2\e7\e7b1129f05a8c0153c8faef2d71fc29d.pos</PackagePath>
+      <Modified>2016-10-20T14:14:30.361</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\a6\a60b72522c6cbf0a3658b0a131bb7fb6.pos">
+      <PackagePath>Data\GI\level3\a6\a60b72522c6cbf0a3658b0a131bb7fb6.pos</PackagePath>
+      <Modified>2016-10-20T14:14:35.036</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\bc\bcbac9d607eb70adc7f831b2aeb2151b.pos">
+      <PackagePath>Data\GI\level4\bc\bcbac9d607eb70adc7f831b2aeb2151b.pos</PackagePath>
+      <Modified>2016-10-20T14:14:39.845</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\e2\e26b6bcff3d0eca1401cfc94eaad465b.pos">
+      <PackagePath>Data\GI\level5\e2\e26b6bcff3d0eca1401cfc94eaad465b.pos</PackagePath>
+      <Modified>2016-10-20T14:14:44.513</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\globalgamemanagers">
+      <PackagePath>Data\globalgamemanagers</PackagePath>
+      <Modified>2016-10-20T14:14:45.191</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\level0">
+      <PackagePath>Data\level0</PackagePath>
+      <Modified>2016-10-20T14:14:25.353</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\level1">
+      <PackagePath>Data\level1</PackagePath>
+      <Modified>2016-10-20T14:14:25.770</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\level2">
+      <PackagePath>Data\level2</PackagePath>
+      <Modified>2016-10-20T14:14:30.606</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\level3">
+      <PackagePath>Data\level3</PackagePath>
+      <Modified>2016-10-20T14:14:35.248</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\level4">
+      <PackagePath>Data\level4</PackagePath>
+      <Modified>2016-10-20T14:14:39.967</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\level5">
+      <PackagePath>Data\level5</PackagePath>
+      <Modified>2016-10-20T14:14:44.622</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\Resources\unity default resources">
+      <PackagePath>Data\Resources\unity default resources</PackagePath>
+      <Modified>2016-10-06T23:57:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\Resources\unity_builtin_extra">
+      <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
+      <Modified>2016-10-20T14:14:54.615</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\globalgamemanagers.assets">
+      <PackagePath>Data\globalgamemanagers.assets</PackagePath>
+      <Modified>2016-10-20T14:14:45.313</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\sharedassets0.assets">
+      <PackagePath>Data\sharedassets0.assets</PackagePath>
+      <Modified>2016-10-20T14:14:45.376</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\sharedassets1.assets">
+      <PackagePath>Data\sharedassets1.assets</PackagePath>
+      <Modified>2016-10-20T14:14:45.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\sharedassets2.assets">
+      <PackagePath>Data\sharedassets2.assets</PackagePath>
+      <Modified>2016-10-20T14:14:53.940</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\sharedassets3.assets">
+      <PackagePath>Data\sharedassets3.assets</PackagePath>
+      <Modified>2016-10-20T14:14:53.972</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\sharedassets4.assets">
+      <PackagePath>Data\sharedassets4.assets</PackagePath>
+      <Modified>2016-10-20T14:14:53.983</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\sharedassets5.assets">
+      <PackagePath>Data\sharedassets5.assets</PackagePath>
+      <Modified>2016-10-20T14:14:53.991</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\level0.resS">
+      <PackagePath>Data\level0.resS</PackagePath>
+      <Modified>2016-10-20T14:14:25.353</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\level1.resS">
+      <PackagePath>Data\level1.resS</PackagePath>
+      <Modified>2016-10-20T14:14:25.770</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\level2.resS">
+      <PackagePath>Data\level2.resS</PackagePath>
+      <Modified>2016-10-20T14:14:30.601</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\level3.resS">
+      <PackagePath>Data\level3.resS</PackagePath>
+      <Modified>2016-10-20T14:14:35.244</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\level4.resS">
+      <PackagePath>Data\level4.resS</PackagePath>
+      <Modified>2016-10-20T14:14:39.961</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\level5.resS">
+      <PackagePath>Data\level5.resS</PackagePath>
+      <Modified>2016-10-20T14:14:44.614</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\sharedassets0.assets.resS">
+      <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
+      <Modified>2016-10-20T14:14:45.376</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\sharedassets1.assets.resS">
+      <PackagePath>Data\sharedassets1.assets.resS</PackagePath>
+      <Modified>2016-10-20T14:14:45.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\sharedassets2.assets.resS">
+      <PackagePath>Data\sharedassets2.assets.resS</PackagePath>
+      <Modified>2016-10-20T14:14:53.926</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\managedAssemblies.txt">
+      <PackagePath>Data\managedAssemblies.txt</PackagePath>
+      <Modified>2016-10-20T14:15:09.054</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\bin\x86\Debug\BossWars.xr.xml">
+      <PackagePath>BossWars.xr.xml</PackagePath>
+      <Modified>2016-10-20T14:24:26.374</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.14393.0\\redist\Debug\x86\ucrtbased.dll">
+      <PackagePath>ucrtbased.dll</PackagePath>
+      <Modified>2016-07-27T21:01:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2016-10-20T05:01:31.802</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-10-20T14:24:34.972</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Assembly-CSharp.dll">
+      <PackagePath>Assembly-CSharp.dll</PackagePath>
+      <Modified>2016-10-20T14:24:42.481</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Assembly-UnityScript.dll">
+      <PackagePath>Assembly-UnityScript.dll</PackagePath>
+      <Modified>2016-10-20T14:24:42.486</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\UnityEngine.dll">
+      <PackagePath>UnityEngine.dll</PackagePath>
+      <Modified>2016-10-20T14:24:42.895</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\UnityEngine.UI.dll">
+      <PackagePath>UnityEngine.UI.dll</PackagePath>
+      <Modified>2016-10-20T14:24:43.027</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\UnityEngine.Networking.dll">
+      <PackagePath>UnityEngine.Networking.dll</PackagePath>
+      <Modified>2016-10-20T14:24:43.121</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\bin\x86\Debug\Core\BossWars.exe">
+      <PackagePath>BossWars.exe</PackagePath>
+      <Modified>2016-10-20T14:24:55.478</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.24210.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.24210.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.24210.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.24210.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.24210.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.24210.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\">
+      <Name>Microsoft.NET.CoreRuntime.1.0</Name>
+      <Version>1.0.23819.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.0, MinVersion = 1.0.23819.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\.\AppX\ARM\Microsoft.NET.CoreRuntime.1.0.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\">
+      <Name>Microsoft.NET.CoreRuntime.1.0</Name>
+      <Version>1.0.23819.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.0, MinVersion = 1.0.23819.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\.\AppX\x64\Microsoft.NET.CoreRuntime.1.0.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\">
+      <Name>Microsoft.NET.CoreRuntime.1.0</Name>
+      <Version>1.0.23819.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.0, MinVersion = 1.0.23819.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\.\AppX\x86\Microsoft.NET.CoreRuntime.1.0.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.24210.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.24210.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.24210.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.24210.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.24210.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.24210.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
